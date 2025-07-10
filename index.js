@@ -1,5 +1,8 @@
-import _ from "lodash";
+import _ from 'lodash'
+
+console.log(_.last(['one', 'two']));
+
 const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+  const c = a + b
+  return c
+}
